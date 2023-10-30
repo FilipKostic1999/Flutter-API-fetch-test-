@@ -46,7 +46,7 @@ class _MyScreenState extends State<MyScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My App Title'),
+        title: const Text('API fetch test'),
       ),
       backgroundColor: Colors.blue,
       body: scheduleData.isEmpty
@@ -65,9 +65,9 @@ class _MyScreenState extends State<MyScreen> {
                         BorderRadius.circular(12), // Make corners round
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey, // Shadow color
-                        offset: Offset(0, 2), // Shadow offset
-                        blurRadius: 6, // Shadow blur radius
+                        color: Colors.grey,
+                        offset: Offset(0, 2),
+                        blurRadius: 6,
                       ),
                     ],
                   ),
